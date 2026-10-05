@@ -1,0 +1,13 @@
+torch
+torchvision
+torchinfo
+ultralytics
+opencv-python
+mediapipe
+matplotlib
+numpy
+Pillow
+icrawler
+beautifulsoup4
+spacy
+transformers
