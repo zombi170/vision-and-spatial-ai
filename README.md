@@ -79,4 +79,3 @@ Runs OpenFace 2.0's `FaceLandmarkVidMulti` (CE-CLM landmark detector) on the fir
 - **Faces are tracked in only 323 of 2,525 clips (12.8%).** UCF-101 is dominated by sports and full-body actions filmed from a distance, where faces are small, turned away or blurred.
 - **Close-up, face-centred actions work.** Every ApplyLipstick and BrushingTeeth clip is tracked, followed by ApplyEyeMakeup, ShavingBeard and HeadMassage (80–92% of clips).
 - **Landmark confidence is bimodal.** It has a large peak near zero and a smaller cluster above 0.8 (median 0.13, interquartile range 0.02–0.66). Many face tracks are marginal detections, so any downstream use of the action units should filter by confidence.
-```
